@@ -1,14 +1,12 @@
 {
-  "name": "myapp",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "application-name",
+  "version": "2.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.13.3"
+    "start": "node server"
+  },  
+"license": "Apache",
+"engines": {
+    "node": "~0.10.0 || ~4.2.0"
   }
 }
