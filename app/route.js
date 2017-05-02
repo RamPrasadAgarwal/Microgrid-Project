@@ -11,7 +11,7 @@ module.exports = function(app){
     
 	app.get('/', function (req, res) {
 		console.log("inside index");
-  		res.sendfile('/home/ramprasad/myapp/app/dashboard/index.html');
+  		res.sendfile('./dashboard/index.html');
 	});
 
 	var bodyParser = require('body-parser');
