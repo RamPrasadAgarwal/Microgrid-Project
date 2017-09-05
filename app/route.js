@@ -1,10 +1,6 @@
 // var connectmysql = require('./connect.js');
 var mysql      = require('mysql');
-var connection = mysql.createConnection({
-   host     : 'localhost',
-  	user     : 'root',
-  	password : 'root',
-  	database : 'microgrid'
+var connection = mysql.createConnection({MYSQLCONNSTR_localdb
 });
 module.exports = function(app){
 
